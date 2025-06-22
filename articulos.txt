@@ -1,0 +1,272 @@
+Artículos Mozilla Hacks
+
+1. Improving Firefox Stability in the Enterprise by Reducing DLL Injection
+Autor: Haik Aftandilian
+Fecha: 2025-03-25T11:31:16-07:00
+Resumen: Beginning in version 138, Firefox will offer an alternative to DLL injection for Data Loss Prevention (DLP) deployments in enterprise environments. DLL Injection DLL injection into Firefox is a topic we’ve covered on the Hacks blog before. In 2023, we blogged about the Firefox capability to let users block third-party DLLs from being loaded. We […]
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2025/03/improving-firefox-stability-in-the-enterprise-by-reducing-dll-injection/
+
+-----------------------------
+
+2. Launching Interop 2025
+Autor: James Graham
+Fecha: 2025-02-13T08:59:13-08:00
+Resumen: Interop 2025 continues the mission to make the web more consistent across browsers, building on 2024’s 95% interoperability score. This year, 19 focus areas target key developer needs and long-standing issues, including WebRTC improvements, Storage Access API, and CSS Zoom.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2025/02/interop-2025/
+
+-----------------------------
+
+3. Introducing Uniffi for React Native: Rust-Powered Turbo Modules
+Autor: Mark Mayo
+Fecha: 2024-12-04T11:38:01-08:00
+Resumen: Mozilla and Filament have introduced Uniffi for React Native, a tool that allows developers to leverage the safety and performance benefits of Rust in cross-platform React Native apps.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/12/introducing-uniffi-for-react-native-rust-powered-turbo-modules/
+
+-----------------------------
+
+4. Llamafile v0.8.14: a new UI, performance gains, and more
+Autor: Stephen Hood
+Fecha: 2024-10-16T06:32:30-07:00
+Resumen: Discover the latest release of Llamafile 0.8.14, an open-source AI tool by Mozilla Builders. With a new command-line chat interface, enhanced performance, and support for powerful models, Llamafile makes it easy to run large language models (LLMs) on your own hardware. Learn more about the updates and how to get involved with this cutting-edge project.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/10/llamafile-v0-8-14-a-new-ui-performance-gains-and-more/
+
+-----------------------------
+
+5. 0Din: A GenAI Bug Bounty Program – Securing Tomorrow’s AI Together
+Autor: Marco Figueroa
+Fecha: 2024-08-08T11:39:13-07:00
+Resumen: As AI continues to evolve, so do the threats against it. As these GenAI systems become more sophisticated and widely adopted, ensuring their security and ethical use becomes paramount. 0Din is a groundbreaking GenAI bug bounty program dedicated specifically to help secure GenAI systems and beyond. In this blog, you'll learn about 0Din, how it works, and how you can participate and make a difference in securing our AI future.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/08/0din-a-genai-bug-bounty-program-securing-tomorrows-ai-together/
+
+-----------------------------
+
+6. Announcing Official Puppeteer Support for Firefox
+Autor: James Graham
+Fecha: 2024-08-07T08:44:40-07:00
+Resumen: We’re pleased to announce that, as of version 23, the Puppeteer browser automation library now has first-class support for Firefox. This means that it’s now easy to write automation and perform end-to-end testing using Puppeteer, and run against both Chrome and Firefox.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/08/puppeteer-support-for-firefox/
+
+-----------------------------
+
+7. Snapshots for IPC Fuzzing
+Autor: Christian Holler
+Fecha: 2024-06-27T09:18:49-07:00
+Resumen: Process separation remains one of the most important parts of the Firefox security model and securing our IPC (Inter-Process Communication) interfaces is crucial to keep privileges in the different processes separated. We take a more detailed look at our newest tool for finding vulnerabilities in these interfaces – snapshot fuzzing.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/06/snapshots-for-ipc-fuzzing/
+
+-----------------------------
+
+8. Sponsoring sqlite-vec to enable more powerful Local AI applications
+Autor: Stephen Hood
+Fecha: 2024-06-25T08:25:58-07:00
+Resumen: Today we’re proud to announce the next Mozilla Builders project: sqlite-vec. Led by independent developer Alex Garcia, this project brings vector search functionality to the beloved SQLite embedded database. Alex has been working on this problem for a while, and we think his latest approach will have a great impact by providing application developers with a powerful new tool for building Local AI applications.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/
+
+-----------------------------
+
+9. Experimenting with local alt text generation in Firefox Nightly
+Autor: Tarek Ziadé
+Fecha: 2024-05-31T09:43:46-07:00
+Resumen: Firefox 130 will introduce an experimental new capability to automatically generate alt-text for images using a fully private on-device AI model. The feature will be available as part of Firefox’s built-in PDF editor, and our end goal is to make it available in general browsing for users with screen readers.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/05/experimenting-with-local-alt-text-generation-in-firefox-nightly/
+
+-----------------------------
+
+10. Llamafile’s progress, four months in
+Autor: Stephen Hood
+Fecha: 2024-04-25T08:34:08-07:00
+Resumen: When Mozilla’s Innovation group first launched the llamafile project late last year, we were thrilled by the immediate positive response from open source AI developers. It’s become one of Mozilla’s top three most-favorited repositories on GitHub, attracting a number of contributors, some excellent PRs, and a growing community on our Discord server.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/04/llamafiles-progress-four-months-in/
+
+-----------------------------
+
+11. Porting a cross-platform GUI application to Rust
+Autor: Alex Franchuk
+Fecha: 2024-04-23T12:08:08-07:00
+Resumen: In this blog post, we delve into the motivations for choosing Rust for our crash reporter, outline the unique challenges of designing an application that operates when the main browser has failed, and discuss the new architecture we've implemented. We also share insights into the technical nuances of the implementation, demonstrating how Rust's features are leveraged to handle crashes more effectively and securely.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/04/porting-a-cross-platform-gui-application-to-rust/
+
+-----------------------------
+
+12. Prototype even faster with the Gradio UI for Figma component library
+Autor: Thomas Lodato
+Fecha: 2024-04-11T08:13:48-07:00
+Resumen: In the fast-paced world of generative AI, staying ahead means moving swiftly and smartly. That's why we've embraced Gradio, the low-code prototyping toolkit from Hugging Face, as our go-to for bringing new ideas to life.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/04/prototype-even-faster-with-the-gradio-ui-for-figma-component-library/
+
+-----------------------------
+
+13. Improving Performance in Firefox and Across the Web with Speedometer 3
+Autor: Brian Grinstead
+Fecha: 2024-03-11T09:00:36-07:00
+Resumen: In collaboration with the other major browser engine developers, Mozilla is thrilled to announce Speedometer 3 today. Like previous versions of Speedometer, this benchmark measures what we think matters most for performance online: responsiveness. But today’s release is more open and more challenging than before, and is the best tool for driving browser performance improvements that we’ve ever seen.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/03/improving-performance-in-firefox-and-across-the-web-with-speedometer-3/
+
+-----------------------------
+
+14. Announcing Interop 2024
+Autor: James Graham
+Fecha: 2024-02-01T09:05:30-08:00
+Resumen: Following the success of Interop 2023, we are pleased to confirm that the project will continue in 2024 with a new selection of focus areas, representing areas of the web platform where we think we can have the biggest positive impact on users and web developers.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/02/announcing-interop-2024/
+
+-----------------------------
+
+15. Option Soup: the subtle pitfalls of combining compiler flags
+Autor: Serge Guelton
+Fecha: 2024-01-29T10:18:33-08:00
+Resumen: During the Firefox 120 beta cycle, a new crash signature appeared on our radars with significant volume. Engineers working on Firefox, explore the subtle pitfalls of combining compiler flags.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2024/01/option-soup-the-subtle-pitfalls-of-combining-compiler-flags/
+
+-----------------------------
+
+16. Puppeteer Support for the Cross-Browser WebDriver BiDi Standard
+Autor: James Graham
+Fecha: 2023-12-12T08:14:03-08:00
+Resumen: Puppeteer now supports the next-generation, cross-browser WebDriver BiDi standard. This new protocol makes it easy for web developers to write automated tests that work across multiple browser engines.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/12/puppeteer-webdriver-bidi/
+
+-----------------------------
+
+17. Firefox Developer Edition and Beta: Try out Mozilla’s .deb package!
+Autor: Johan Lorenzo (Mozilla)
+Fecha: 2023-11-30T11:55:38-08:00
+Resumen: A month ago, we introduced our Nightly package for Debian-based Linux distributions. Today, we are proud to announce we made our .deb package available for Developer Edition and Beta!
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/11/firefox-developer-edition-and-beta-try-out-mozillas-deb-package/
+
+-----------------------------
+
+18. Introducing llamafile
+Autor: Stephen Hood
+Fecha: 2023-11-29T10:46:02-08:00
+Resumen: We're thrilled to announce the first release of llamafile, inviting the open source community to join this groundbreaking project. With llamafile, you can effortlessly convert large language model (LLM) weights into executables. Imagine transforming a 4GB file of LLM weights into a binary that runs smoothly on six different operating systems, without requiring installation.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/11/introducing-llamafile/
+
+-----------------------------
+
+19. Mozilla AI Guide Launch with Summarization Code Example
+Autor: Dan Brown
+Fecha: 2023-11-16T08:20:15-08:00
+Resumen: Mozilla has just launched the AI Guide, a collaborative hub for developers to join forces, inspire each other, and lead the way in groundbreaking generative AI advancements. The AI Guide’s initial focus begins with language models and the aim is to become a collaborative community-driven resource covering other types of models.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/11/mozilla-ai-guide-launch-with-summarization-code-example/
+
+-----------------------------
+
+20. Down and to the Right: Firefox Got Faster for Real Users in 2023
+Autor: Bas Schouten
+Fecha: 2023-10-31T09:29:05-07:00
+Resumen: To deliver against our vision and enable a better online experience for everyone, we’ve been working hard on making Firefox even faster. We’re extremely happy to report that this has resulted in a significant improvement in speed over the past year.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/10/down-and-to-the-right-firefox-got-faster-for-real-users-in-2023/
+
+-----------------------------
+
+21. Built for Privacy: Partnering to Deploy Oblivious HTTP and Prio in Firefox
+Autor: Bobby Holley
+Fecha: 2023-10-12T06:02:35-07:00
+Resumen: Protecting user privacy is a core element of Mozilla’s vision for the web and the internet at large. In pursuit of this vision, we’re pleased to announce new partnerships with Fastly and Divvi Up to deploy privacy-preserving technology in Firefox.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/10/built-for-privacy-partnering-to-deploy-oblivious-http-and-prio-in-firefox/
+
+-----------------------------
+
+22. Faster Vue.js Execution in Firefox
+Autor: Brian Grinstead
+Fecha: 2023-09-05T09:39:32-07:00
+Resumen: Firefox performance on Vue.js has improved significantly throughout the year. Most recently, we sped up reactivity with Proxy optimizations. This change landed in Firefox 118, so it’s currently on Beta and will ride along to Release by the end of September.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/09/faster-vue-js-execution-in-firefox/
+
+-----------------------------
+
+23. Autogenerating Rust-JS bindings with UniFFI
+Autor: Ben Dean-Kawamura
+Fecha: 2023-08-08T04:15:31-07:00
+Resumen: This blog post will walk through how we developed UniFFI: a Rust library for auto-generating foreign language bindings. We will walk through some of the issues that arose along the way and how we handled them.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/08/autogenerating-rust-js-bindings-with-uniffi/
+
+-----------------------------
+
+24. So you want to build your own open source ChatGPT-style chatbot…
+Autor: Stephen Hood
+Fecha: 2023-07-27T10:52:57-07:00
+Resumen: Artificial intelligence may well prove one of the most impactful and disruptive technologies to come along in years. We want to understand, support, and contribute to these efforts because we believe that they offer one of the best ways to help ensure that the AI systems that emerge are truly trustworthy. With this in mind, a small team within Mozilla’s innovation group recently undertook a hackathon at our headquarters in San Francisco. Our objective: build a Mozilla internal chatbot prototype.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/07/so-you-want-to-build-your-own-open-source-chatbot/
+
+-----------------------------
+
+25. Letting users block injected third-party DLLs in Firefox
+Autor: Greg Stoll
+Fecha: 2023-03-30T11:41:16-07:00
+Resumen: In Firefox 110, users now have the ability to control which third-party DLLs are allowed to load into Firefox processes. Let’s talk about what this means and when it might be useful.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/
+
+-----------------------------
+
+26. Mozilla Launches Responsible AI Challenge
+Autor: Dan Brown
+Fecha: 2023-03-14T13:42:38-07:00
+Resumen: We want entrepreneurs and builders to join us in creating a future where AI is developed through this responsible lens. That’s why we are relaunching our Mozilla Builders program with the Responsible AI Challenge.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/03/mozilla-launches-responsible-ai-challenge/
+
+-----------------------------
+
+27. Announcing Interop 2023
+Autor: James Graham
+Fecha: 2023-02-01T09:02:13-08:00
+Resumen: Interop 2022 showed significant improvements in the interoperability of multiple platform features, along with several cross-browser investigations that looked into complex, under-specified, areas of the platform where interoperability has been difficult to achieve. Building on this, we're pleased to announce Interop 2023, the next iteration of the Interop project.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/02/announcing-interop-2023/
+
+-----------------------------
+
+28. Interop 2022: Outcomes
+Autor: James Graham
+Fecha: 2023-01-31T09:04:42-08:00
+Resumen: Last March we announced the Interop 2022 project, a collaboration between Apple, Bocoup, Google, Igalia, Microsoft, and Mozilla to improve the quality and consistency of their implementations of the web platform. Now that it's 2023 and we're deep into preparations for the next iteration of Interop, it's a good time to reflect on how the first year of Interop has gone.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2023/01/interop-2022-outcomes/
+
+-----------------------------
+
+29. How the Mozilla Community helps shape our products
+Autor: Francesca Minelli
+Fecha: 2022-12-07T10:48:54-08:00
+Resumen: A product is first an idea, then a project, and then a prototype. Here, at Mozilla, our awesome community is there every step of the way to support and contribute to our products. None of what we do would be possible without this multicultural, multilingual community of like-minded people working together to be a better internet.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2022/12/how-the-mozilla-community-helps-to-shape-our-products/
+
+-----------------------------
+
+30. Improving Firefox stability with this one weird trick
+Autor: Gabriele Svelto
+Fecha: 2022-11-22T06:16:56-08:00
+Resumen: We break down how we reduced Firefox out-of-memory crashes on Windows with a simple trick. Poorly behaving web pages and apps are no longer capable of crashing the browser by exhausting memory.
+Primer párrafo: No hay parrafo
+URL: https://hacks.mozilla.org/2022/11/improving-firefox-stability-with-this-one-weird-trick/
+
+-----------------------------
+
